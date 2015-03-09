@@ -8,4 +8,9 @@ Otro de los objetivos de la Estadística es realizar conjeturas acerca de las me
 
 ## Polyplot
 
-El Polyplot es un diagrama descriptivo que contiene estadísticas de ubicación y se extendió estadísticas en cuatro filas consecutivas. Las medianas están representados con triángulos, los medios con los círculos sólidos, y los valores extremos con cuadrados. La media general es el triángulo central en la primera fila de la trama. Esta mediana divide la muestra en dos partes, de las cuales se calculan las medianas (en la primera fila) y los medios (en la segunda fila). Conexión de las medianas de las dos mitades de la distribución produce la IQR como también se hace en el diagrama de caja. El MAD se visualiza en la segunda fila de la trama por una línea continua que conecta la media de todos los datos y la media de una de las mitades (ya sea x1 o x2) dependiendo de si la asimetría es negativo o positivo. Cuando el número de observaciones es aún el segmento que conecta
+El Polyplot es un diagrama descriptivo que contiene estadísticos de ubicación y variabilidad en sus cuatro filas consecutivas. Los quantiles se encuentran representados con triángulos, las medias por medio de círculos sólidos, y los valores extremos con cuadrados. La mediana es el triángulo central en la primera fila de la trama, esta mediana divide a los datos en dos grupos de los cuales se calculan las medias, mismas que se encuentran representadas en la segunda fila de la trama al igual que la media de los datos.
+
+
+La conexión de los quantiles Q1 y Q3 de la distribución producen el rango intercuartil IQR el cual se representa por medio de una línea negra en la primera fila. La asimetría se representa por medio de una línea negra continua que conecta la media de los datos a una de las medias de las mitades ya sea hacia la izquierda o hacia la derecha dependiendo si la asimetría es negativa o positiva.
+
+La desviación estándar de los datos se representa en la tercera fila de la trama. Finalmente, en la cuarta fila se identifica la presencia de datos atípicos a través de los paréntesis, mismos que son calculados en base al rango intercuartil: LI: Q1-1.5IQR y LS: Q1+1.5IQR. 
